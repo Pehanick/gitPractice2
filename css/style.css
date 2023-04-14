@@ -1,0 +1,304 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.header__main{
+    display: flex;
+    max-width: 4000px;
+    height: 85px;
+    background-color: rgba(236, 236, 247, 0.747);
+}
+.body__logo{
+    display: flex;
+    max-width: 4000px;
+    height: 150px;
+}
+.body__main{
+    display: flex;
+    max-width: 4000px;
+    height: 78.2vh;
+}
+.body__main img {
+    width: 100%;
+    filter: brightness(30%)
+}
+.footer__main{
+    display: flex;
+    max-width: 4000px;
+    height: 630px;
+    background-color: rgba(128, 128, 128, 0.432);
+}
+.phone__img{
+    position: absolute;
+    margin-left: 700px;
+    top: 26px;
+}
+.facebook__img{
+    position: absolute;
+    margin-left: 1500px;
+    max-width: 32px;
+    top: 26px;
+}
+.twit__img{
+    position: absolute;
+    margin-left: 1550px;
+    max-width: 32px;
+    top: 26px;
+}
+.insta__img{
+    position: absolute;
+    margin-left: 1600px;
+    max-width: 32px;
+    top: 26px;
+}
+.mail__img{
+    position: absolute;
+    max-width: 32px;
+    margin-left: 380px;
+    top: 26px;
+}
+.geo__img{
+    position: absolute;
+    max-width: 32px;
+    top: 26px;
+    margin-left: 80px;
+}
+.text__number{
+    position: absolute;
+    font-size: 23px;
+    margin-left: 740px;
+    top: 30px;
+}
+.text__mail{
+    position: absolute;
+    margin-left: 430px;
+    font-size: 23px;
+    top: 30px;
+}
+.text__where{
+    position: absolute;
+    font-size: 23px;
+    top: 30px;
+    margin-left: 120px;
+}
+.dogy__img{
+    max-width: 120px;
+    max-height: 120px;
+    margin-left: 80px;
+    padding: 10px;
+}
+.body__logo a{
+    position: absolute;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text__home{
+    padding: 50px;
+    margin-left: 860px;
+}
+.text__serv{
+    padding: 50px;
+    margin-left: 1000px;
+}
+.text__about{
+    padding: 50px;
+    margin-left: 1170px;
+}
+.text__adopt{
+    padding: 50px;
+    margin-left: 1300px;
+}
+.text__gallery{
+    padding: 50px;
+    margin-left: 1430px;
+}
+.text__contact{
+    padding: 50px;
+    margin-left: 1580px;
+}
+.text__otherpages{
+    padding: 50px;
+    margin-left: 1730px;
+}
+.text__welcome {
+    position: absolute;
+    color: white;
+    font-size: 65px;
+    padding: 120px;
+    margin-left: 500px;
+}
+.text__ins{
+    position: absolute;
+    color: white;
+    font-size: 35px;
+    margin-left: 540px;
+    padding: 220px;
+    text-align: center;
+}
+.button__main{
+    position: absolute;
+    display: inline-block;	
+	box-sizing: border-box;
+	padding: 0 25px;
+	margin: 0 15px 15px 0;
+	outline: none;
+	border: 1px solid #fff;
+	border-radius: 50px;
+	height: 46px;
+	line-height: 46px;
+	font-size: 14px;
+	font-weight: 600;
+	text-decoration: none;
+	color: #444;
+	background-color: rgba(255, 255, 255, 0.822);
+	box-shadow: 0 4px 6px rgb(65 132 144 / 10%), 0 1px 3px rgb(0 0 0 / 8%);
+	cursor: pointer;
+	user-select: none;
+	appearance: none;
+	touch-action: manipulation;  
+	vertical-align: top;
+	transition: box-shadow 0.2s;
+    font-size: 20px;
+    color: black;
+    margin-left: 955px;
+    margin-top: 350px;
+}
+.button__main:hover {
+	transition: all 0.2s;
+	box-shadow: 0 7px 14px rgb(65 132 144 / 10%), 0 3px 6px rgb(0 0 0 / 8%);
+    background-color: rgba(0, 255, 255, 0.418);
+}
+#map{
+    padding: 15px;
+    margin-left: 24px;
+    border: 400px solid black;
+}
+.text__fotter1{
+    display: flex;
+    font-size: 33px;
+    color: #1a3323;
+    margin-left: 10px;
+    padding: 30px;
+}
+.ul__first{
+    position: absolute;
+    font-size: 20px;
+    color: #000000;
+    padding: 75px;
+    margin-left: 640px;
+}
+.text__fotter3{
+    display: flex;
+    font-size: 33px;
+    color: #1a3323;
+    margin-left: 1px;
+    padding: 30px;
+}
+.ul__third{
+    position: absolute;
+    font-size: 20px;
+    color: #000000;
+    padding: 75px;
+    margin-left: 840px;
+}
+.text__fotter4{
+    display: flex;
+    font-size: 33px;
+    color: #1a3323;
+    padding: 30px;
+    margin-left: 1px;
+}
+.ul__fourth{
+    position: absolute;
+    font-size: 20px;
+    color: #000000;
+    padding: 75px;
+    margin-left: 1000px;
+}
+.text__fotter2{
+    display: flex;
+    font-size: 33px;
+    color: #1a3323;
+    padding: 30px;
+    margin-left: 50px;
+} 
+.ul__second{
+    position: absolute;
+    font-size: 20px;
+    color: #000000;
+    padding: 75px;
+    margin-left: 1200px;
+}
+.area__name{
+    position: absolute;
+    margin-left: 700px;
+    margin-top: 280px;
+    width: 200px;
+    height: 30px;
+}
+.area__surname{
+    position: absolute;
+    margin-left: 700px;
+    margin-top: 420px;
+    width: 200px;
+    height: 30px;
+}
+.area__mail{
+    position: absolute;
+    margin-left: 980px;
+    margin-top: 280px;
+    width: 200px;
+    height: 30px;
+}
+.area__number{
+    position: absolute;
+    margin-left: 980px;
+    margin-top: 420px;
+    width: 200px;
+    height: 30px;
+}
+.text__name{
+    position: absolute;
+    margin-left: 702px;
+    margin-top: 240px;
+    font-size: 25px;
+}
+.text__surname{
+    position: absolute;
+    margin-left: 980px;
+    margin-top: 240px;
+    font-size: 25px;
+}
+.text__number2{
+    position: absolute;
+    margin-left: 980px;
+    margin-top: 375px;
+    font-size: 25px;
+}
+.text__mail2{
+    position: absolute;
+    margin-left: 702px;
+    margin-top: 375px;
+    font-size: 25px;
+}
+.button__footer{
+    position: absolute;
+    margin-left: 880px;
+    margin-top: 520px;
+    background-color: #4CAF50;
+    border: #444;
+    border-radius: 10px;
+    color: black;
+    padding: 25px 40px;
+    text-align: center;
+    text-decoration: wavy;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+.button__footer:hover{
+    background-color: #4caf4fcb;
+}
+
